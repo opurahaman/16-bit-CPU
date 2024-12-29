@@ -1,0 +1,7 @@
+add r5 r2 r4
+sll r6 r4 3
+sub r6 r4 r1
+lw r7 r0 1
+sw r7 r0 2
+beq r5 r7 5
+jmp 10
